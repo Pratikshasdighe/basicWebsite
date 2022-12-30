@@ -6,11 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UniverSity Website</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-   <section class="sub-header">
+   <section class="header">
     <nav>
         <a href="index.html">
             <img src="images/Logo.png" alt=""> </a>
@@ -19,7 +20,74 @@
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About</a></li>
-                    <li><a href="course.html">Course</a></li>
+                    <li class="dropdown">
+                        <a href="javascript:void(0)" class="dropbtn">Services</a>
+                        <div class="dropdown-content">
+                           <div class="patent">
+                            <h3>Patent search and analytics</h3>
+                            <hr>
+                            <a href="#">Novelty/Patentability search</a>
+                          <a href="#">Chemical structure search
+                        </a>
+                          <a href="#">Freedom to operate (FTO) search and product clearance
+                        </a>
+                          <a href="#"> Validation or Invalidation search</a>
+                          <a href="#">Patent filing and prosecution</a>
+                          <a href="#">Filing International and foreign patent application</a>
+                          <a href="#"> Technology Landscape
+                        </a>
+                        <a href="#">Patent due-diligence
+                        </a>
+                        <a href="#">Freedom to operate</a>
+                        <a href="#">Patent portfolio</a>
+                        
+                         
+                           </div>
+                           <div class="patent">
+                            <h3>IP management</h3>
+                            <hr>
+                            <a href="#">IP valuation and commercialization
+                            </a>
+                          <a href="#">IP audit and due diligence
+
+                        </a>
+                          <a href="#">IP portfolio management
+ 
+
+                        </a>
+                          
+                        
+                         
+                           </div>
+                           <div class="patent">
+                            <h3>Trademark
+                            </h3>
+                            <hr>
+                            <a href="#">Trademark search in India & internationally with detailed search report
+                            </a>
+                          <a href="#">Trademark application filing and prosecution in India and Internationally
+
+                        </a>
+                          <a href="#"> Trademark infringement
+
+                        </a>
+                          <a href="#"> Trademark Renewal
+                        </a>
+                          <a href="#"> Technology Landscape
+                        </a>
+                        <a href="#">  Trademark opposition
+
+                        </a>
+                        <a href="#">  Trademark litigation</a>
+                       
+                        
+                         
+                           </div>
+                         
+                         
+
+                        </div>
+                      </li>
                     <li><a href="bolgs.html">Bolgs</a></li>
                     <li><a href="contactUs.html">Contact us</a></li>
             </ul>
@@ -27,7 +95,10 @@
             <i class="fa fa-bars" onclick="showMenu()"></i>
        
     </nav>
-    <div class="container">
+   
+     </section>
+     <section>
+      <div class="container">
         <div class="images"></div>
         <div class="text-box">
        
@@ -42,12 +113,20 @@
      <section class="about-us">
         <div class="row">
             <div class="about-col">
-                <h1>Lorem ipsum dolor sit amet.</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et praesentium ex esse, veniam, illo ab officia fuga molestiae nesciunt harum commodi doloribus tempora? Accusamus, ipsum autem! Officiis, blanditiis quia cum dolores, autem facilis excepturi cumque accusamus magni ut eligendi illo!</p>
-                 <a href="" class="hero-btn red-btn">Explorer now</a>
+                <h1>
+                    Welcome To Brainiac IP Solutions</h1>
+                <p>
+                    At Geniobrain IP Solution we provide the support to the scientist, R&D institution, companies,
+         startUPs and academic institutes to protect their IPRs. As government recognized IP facilitators, 
+          till date we are supporting the 100+ startups and entrepreneurs to design the patent filing 
+           strategies for different jurisdictions. With this expertise and designing proper patent filing 
+            strategy we have a record of granting the patent at Indian patent office with very less 
+             time period (7 Month) with expedited procedure. 
+                </p>
+                
             </div>
             <div class="about-col">
-                <img src="images/about.jpg" alt="">
+                <img src="images/about.png" alt="">
             </div>
         </div>
      </section>
@@ -63,21 +142,93 @@
 
 <!-- --------Footer---- -->
 
-<section class="footer">
-    <h4>About us</h4>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque, error enim! <br/>
-         Temporibus ad et quisquam nisi, at cum non magnam sunt dolorem illo omnis deleniti sapiente, <br/>
-         asperiores facere tempore soluta.</p>
-   <div class="icons">
-    <i class="fa fa-facebook"></i>
-    <i class="fa fa-twitter"></i>
-    <i class="fa fa-instagram"></i>
-    <i class="fa fa-linkedin"></i>
-
-   </div>
-
-   <p>Made with<i class="fa fa-heart-o"></i>by tutorial</p>
-</section>
+<footer class="footer-section">
+  <div class="container">
+      
+      <div class="footer-content pt-5 pb-5">
+          <div class="row">
+              <div class="col-xl-4 col-lg-4 mb-50">
+                  <div class="footer-widget">
+                      <div class="footer-logo">
+                          <!-- <a href="index.html"><img src="images/Logo.png" class="img-fluid" alt="logo"></a> -->
+                          <h1>About Us</h1>
+                      </div>
+                      <div class="footer-text">
+                          <p>We strive to provide the highest quality IP service and keeping the needs, desires, <br>
+                               and goals of our clients at the forefront of everything we do. We are having realms <br>
+                                of experiences in IP law and provide the full range of intellectual property <br>
+                                 solutions to our clients in order to safeguard their Intellectual Property Rights (IPR) <br>
+                                  as well as business interests.
+                          </p>
+                      </div>
+                      <div class="footer-social-icon">
+                          <span>Follow us</span>
+                          <a href="#"><i class="fa fa-facebook facebook-bg"></i></a>
+                          <a href="#"><i class="fa fa-twitter twitter-bg "></i></a>
+                          <a href="#"><i class="fa fa-google google-bg" ></i></a>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                  <div class="footer-widget">
+                      <div class="footer-widget-heading">
+                          <h3>Useful Links</h3>
+                          
+                      </div>
+                      <ul>
+                          <li><a href="#">Home</a></li>
+                          <li><a href="#">about</a></li>
+                          <li><a href="#">services</a></li>
+                          
+                          
+                          
+                          
+                          <li><a href="#">Blogs</a></li>
+                          <li><a href="#">Contact us</a></li>
+                         
+                      </ul>
+                  </div>
+              </div>
+              <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+                  <div class="footer-widget">
+                      <div class="footer-widget-heading">
+                          <h3>Our Location</h3>
+                      </div>
+                      <section class="footer-location">
+                          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7567.9355784693125!2d73.94855612258378!3d18.485118175039975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2e9e305da104d%3A0x58d4427f13f11bc9!2sBhekrai%20Nagar%2C%20Fursungi%2C%20Maharashtra%20412308!5e0!3m2!1sen!2sin!4v1671770968030!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                       </section>
+                       <p class="para">Geniobrain IP Solution <br>
+                           SHop No 5, S K Complex <br>
+                            near Om hospital bhekrainagar <br>
+                              Fursungi Pune 412308</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="copyright-area">
+      <div class="container">
+          <div class="row">
+              <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+                  <div class="copyright-text">
+                    <p>Copyright &copy; 2018, All Right Reserved</p>
+                  </div>
+              </div>
+              <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+                  <div class="footer-menu">
+                      <ul>
+                          <li><a href="#">Home</a></li>
+                          <li><a href="#">Terms</a></li>
+                          <li><a href="#">Privacy</a></li>
+                          <li><a href="#">Policy</a></li>
+                          <li><a href="#">Contact</a></li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</footer>
 
 <!-- ---------------------Javascript for toggle menu -->
    <script>

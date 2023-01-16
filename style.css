@@ -20,6 +20,7 @@ box-shadow: 0 0 25px 0 black;
    
   text-align: center;
   
+  
 }
 .img{
     min-height: 100vh;
@@ -27,6 +28,7 @@ box-shadow: 0 0 25px 0 black;
     background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/banner.png);
     background-position: center;
     background-size: cover;
+    
     /* position: relative; */
 }
 nav{
@@ -47,7 +49,8 @@ nav img{
     list-style: none;
     display: inline-block;
     padding: 8px 12px;
-    position: relative;
+   
+    /* position: relative; */
 }
 .nav-links ul li a{
     /* color: #fff; */
@@ -84,11 +87,13 @@ nav img{
   display: none;
   position: absolute;
   background-color: #f9f9f9;
-  min-width: 100% !important;
+  min-width: 80% !important;
+  margin-right: 60px;
   right:0;
   left: auto;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
+  
 }
 
 hr{
@@ -110,6 +115,7 @@ hr{
 
 .dropdown:hover .dropdown-content {
   display: flex;
+ 
 }
 .text-box {
     width: 90%;
@@ -158,8 +164,8 @@ nav .fa{
         width: 200px;
         
     }
-    .images{
-        width: 120%;
+    .img{
+        width: 100%;
         height: auto;
     }
     .nav-links ul li{
@@ -185,6 +191,7 @@ nav .fa{
         display: block;
         color: #94bd2e;
         margin: 1px;
+        margin-right: 20px;
         font-size: 22px;
         cursor: pointer;
 
@@ -433,6 +440,8 @@ nav .fa{
   }
   .about-col p{
     padding:15px  0 25px;
+    font-size: 18px;
+    line-height: 30px;
   }
   .red-btn{
     border: 1px solid #94bd2e;
@@ -735,13 +744,13 @@ nav .fa{
   color: #878787;
 }
 
-.footer-location{
+/* .footer-location{
   width: 80%;
  
   margin: auto;
   padding: 0 70px;
 
-}
+} */
 .footer-location iframe{
   width: 80%;
   height: 100%;
@@ -755,3 +764,4 @@ nav .fa{
 .footer-logo h1{
   color: #fff;
 }
+

@@ -86,104 +86,41 @@
       <div class="container">
         <div class="images"></div>
         <div class="text-box">
-          <h1>Our Certificate & Online Programe For 2021</h1>
+          <h1>Startup</h1>
         </div>
       </div>
     </section>
 
-    <!-- -------bolg page content----- -->
-
-    <section class="blog-content">
+    <section class="course">
+      <h1>Courses We Offer</h1>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
       <div class="row">
-        <div class="blog-left">
-          <img src="images/certificate.jpg" alt="" />
-          <h2>Our Certificate & Online Programe For 2021</h2>
+        <div class="course-col">
+          <h3>Intermediate</h3>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque
-            itaque libero modi, ipsam provident quis iusto necessitatibus
-            quibusdam? Commodi officiis, obcaecati eius, praesentium cum,
-            provident totam nulla odit blanditiis sunt voluptatum maxime
-            explicabo velit cupiditate? Delectus magni est eaque id, quae unde
-            eum autem qui corrupti. Vitae soluta eos dignissimos.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid
+            odit nam similique necessitatibus molestias nihil, quo deleniti
+            culpa recusandae aspernatur repellat eligendi! Commodi ex cupiditate
+            cum quia praesentium hic eveniet aliquam esse, optio minus!
           </p>
-          <br />
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt
-            laudantium ducimus incidunt optio eos, necessitatibus rem earum
-            inventore sint voluptatem, eligendi voluptas ut eius culpa
-            veritatis! Laboriosam odit minima ex deserunt itaque cum nostrum eos
-            totam reiciendis saepe, voluptates, atque qui cupiditate nisi! Fugit
-            eveniet voluptate omnis ad dolor exercitationem aut optio totam
-            recusandae itaque, tenetur beatae, molestias maiores quasi illum
-            consequuntur. Obcaecati, vitae odio temporibus, laboriosam
-            dignissimos magnam expedita reprehenderit optio minus dolor
-            doloremque modi numquam ipsam alias? Culpa iste ullam id similique
-            obcaecati ipsa maiores reiciendis aspernatur, possimus voluptatem
-            sed et vel cupiditate nulla fugit mollitia, dolorum odio, inventore
-            iure necessitatibus autem numquam aut aperiam iusto? Ratione
-            similique maiores quidem distinctio cumque assumenda doloremque vel
-            eum, fugit nisi, dolorum reiciendis impedit ea, sequi voluptatum?
-            Earum assumenda quos officiis consectetur unde quasi suscipit
-            repellat facilis, corrupti nostrum ipsa quod, qui placeat
-            necessitatibus, nemo ad deserunt natus dolores ex accusantium. Rem
-            quia debitis obcaecati itaque quo nihil corrupti voluptate,
-            reprehenderit iusto adipisci quae autem magni dolor recusandae culpa
-            dolorum placeat blanditiis est fugit rerum, maxime earum assumenda
-            alias cum. Ex, quidem nam? Ducimus necessitatibus voluptate commodi
-            architecto nam cupiditate nisi id asperiores veritatis provident.
-            Dolores officiis quod reprehenderit quis at.
-          </p>
-          <br />
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Consectetur suscipit iure dolorum at ab illum! Quisquam iure minus
-            ratione. Voluptas, sit consequuntur velit molestiae provident qui,
-            officia illo quasi culpa sunt porro ipsa rem veritatis earum
-            expedita quis alias. Voluptates quas veritatis vitae minus dolor
-            odit saepe pariatur eius fuga!
-          </p>
-          <div class="comment-box">
-            <h3>Leave a Comment</h3>
-            <form action="" class="comment-form">
-              <input type="text" placeholder="Enater name" />
-              <input type="email" placeholder="Enter Email" />
-              <textarea
-                name=""
-                rows="5"
-                placeholder="Enter comment"
-                id="comment-box"
-              ></textarea>
-              <button class="hero-btn red-btn" id="post">Send Comment</button>
-            </form>
-          </div>
-          <ul id="unordered"></ul>
         </div>
-        <div class="blog-right">
-          <h3>Post Categories</h3>
-          <div>
-            <span> Business Analytics</span>
-            <span>21</span>
-          </div>
-          <div>
-            <span> Business Analytics</span>
-            <span>21</span>
-          </div>
-          <div>
-            <span> Business Analytics</span>
-            <span>21</span>
-          </div>
-          <div>
-            <span> Business Analytics</span>
-            <span>21</span>
-          </div>
-          <div>
-            <span> Business Analytics</span>
-            <span>21</span>
-          </div>
-          <div>
-            <span> Business Analytics</span>
-            <span>21</span>
-          </div>
+        <div class="course-col">
+          <h3>degree</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid
+            odit nam similique necessitatibus molestias nihil, quo deleniti
+            culpa recusandae aspernatur repellat eligendi! Commodi ex cupiditate
+            cum quia praesentium hic eveniet aliquam esse, optio minus!
+          </p>
+        </div>
+        <div class="course-col">
+          <h3>post graduation</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid
+            odit nam similique necessitatibus molestias nihil, quo deleniti
+            culpa recusandae aspernatur repellat eligendi! Commodi ex cupiditate
+            cum quia praesentium hic eveniet aliquam esse, optio minus!
+          </p>
         </div>
       </div>
     </section>
@@ -296,19 +233,6 @@
       function hideMenu() {
         navLinks.style.right = "-200px";
       }
-
-      var post = document.getElementById("post");
-      post.addEventListener("click", function () {
-        var commentBoxValue = document.getElementById("comment-box").value;
-
-        var li = document.createElement("li");
-        var text = document.createTextNode(commentBoxValue);
-        li.appendChild(text);
-        document.getElementById("unordered").appendChild(li);
-        localStorage.setItem("lastname", text);
-        document.getElementById("unordered").innerHTML =
-          localStorage.getItem("lastname");
-      });
     </script>
   </body>
 </html>

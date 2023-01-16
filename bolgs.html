@@ -73,7 +73,9 @@
                 </div>
               </div>
             </li>
+            <<<<<<< HEAD
             <li><a href="startup.html">Startup</a></li>
+            ======= >>>>>>> e8cde4f9498a9aa3d30dc4aeae04eae11cdea06d
             <li><a href="bolgs.html">Bolgs</a></li>
             <li><a href="contactUs.html">Contact us</a></li>
           </ul>
@@ -254,8 +256,8 @@
                 </section>
                 <p class="para">
                   Geniobrain IP Solution <br />
-                  SHop No 5, S K Complex <br />
-                  near Om hospital bhekrainagar <br />
+                  Shop No 5, S K Complex <br />
+                  Near Om Hospital Bhekrainagar <br />
                   Fursungi Pune 412308
                 </p>
               </div>
@@ -296,19 +298,6 @@
       function hideMenu() {
         navLinks.style.right = "-200px";
       }
-
-      var post = document.getElementById("post");
-      post.addEventListener("click", function () {
-        var commentBoxValue = document.getElementById("comment-box").value;
-
-        var li = document.createElement("li");
-        var text = document.createTextNode(commentBoxValue);
-        li.appendChild(text);
-        document.getElementById("unordered").appendChild(li);
-        localStorage.setItem("lastname", text);
-        document.getElementById("unordered").innerHTML =
-          localStorage.getItem("lastname");
-      });
     </script>
   </body>
 </html>
